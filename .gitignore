@@ -1,0 +1,36 @@
+# 项目排除路径
+/.gradle/
+/build/
+
+/common/.gradle/
+/common/build/
+/common/run/
+/common/bin/
+/common/build/classes/java/main/
+
+/fabric/.gradle/
+/fabric/build/
+/fabric/run/
+/fabric/bin/
+/fabric/build/classes/java/main/
+
+/neoforge/.gradle/
+/neoforge/build/
+/neoforge/run/
+/neoforge/bin/
+/neoforge/build/classes/java/main/
+
+
+# 自定义忽略内容
+# /.architectury-transformer/
+# /.idea/
+# /.vscode/
+/.*/
+
+*.log
+*.tmp
+*.bak
+*.bin
+*.class
+*.dat
+*.mca

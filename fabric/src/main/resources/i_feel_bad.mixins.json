@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "org.x4.mc_mod__i_feel_bad.fabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "IFBMixinEntityTypeFabric"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

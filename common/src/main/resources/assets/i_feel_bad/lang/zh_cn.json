@@ -1,0 +1,49 @@
+{
+  "i_feel_bad.configuration.title": "I Feel Bad 配置",
+  "i_feel_bad.configuration.section.i_feel_bad.common.toml": "I Feel Bad 配置",
+  "i_feel_bad.configuration.section.i_feel_bad.common.toml.title": "I Feel Bad 配置",
+
+  "i_feel_bad.configuration.gui.i_feel_bad_config": "一般设置",
+  "i_feel_bad.configuration.gui.i_feel_bad_config.flag__enable_i_feel_bad": "启用 I Feel Bad",
+  "i_feel_bad.configuration.gui.i_feel_bad_config.flag__enable_logging": "启用日志",
+  "i_feel_bad.configuration.gui.i_feel_bad_config.flag__enable_config_check": "启用配置检查",
+
+  "i_feel_bad.configuration.gui.hp_modification_config": "HP (生命值) 修改",
+  "i_feel_bad.configuration.gui.hp_modification_config.flag__enabled": "启用 HP 修改",
+  "i_feel_bad.configuration.gui.hp_modification_config.coefficient__k": "系数 k",
+  "i_feel_bad.configuration.gui.hp_modification_config.coefficient__b": "系数 b",
+  "i_feel_bad.configuration.gui.hp_modification_config.minimum": "最小值",
+  "i_feel_bad.configuration.gui.hp_modification_config.maximum": "最大值",
+
+  "i_feel_bad.configuration.gui.food_level_modification_config": "饱腹值 (饥饿值) 修改",
+  "i_feel_bad.configuration.gui.food_level_modification_config.flag__enabled": "启用饱腹值修改",
+  "i_feel_bad.configuration.gui.food_level_modification_config.coefficient__k": "系数 k",
+  "i_feel_bad.configuration.gui.food_level_modification_config.coefficient__b": "系数 b",
+  "i_feel_bad.configuration.gui.food_level_modification_config.minimum": "最小值",
+  "i_feel_bad.configuration.gui.food_level_modification_config.maximum": "最大值",
+
+  "i_feel_bad.configuration.gui.saturation_modification_config": "饱和度修改",
+  "i_feel_bad.configuration.gui.saturation_modification_config.flag__enabled": "启用饱和度修改",
+  "i_feel_bad.configuration.gui.saturation_modification_config.coefficient__k": "系数 k",
+  "i_feel_bad.configuration.gui.saturation_modification_config.coefficient__b": "系数 b",
+  "i_feel_bad.configuration.gui.saturation_modification_config.minimum": "最小值",
+  "i_feel_bad.configuration.gui.saturation_modification_config.maximum": "最大值",
+
+  "i_feel_bad.configuration.gui.status_effect_assignment_config": "状态效果赋予",
+  "i_feel_bad.configuration.gui.status_effect_assignment_config.flag__enable_status_effect_assignment": "启用状态效果赋予",
+  "i_feel_bad.configuration.gui.status_effect_assignment_config.list__status_effect_assignment_records": "效果列表",
+
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config": "经验机制修改",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.flag__enable_coverage": "启用经验机制修改",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.basic__exp_requirement": "升级所需的基础经验",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.increment__exp_req_per_level": "每一级的增量",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.minimum__exp_req_for_each_level": "经验需求最小值",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.maximum__exp_req_for_each_level": "经验需求最大值",
+
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config": "实体生成时的属性修改",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.flag__enable_entity_attributes_modification": "启用实体加入时的属性修改",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.flag__only_modify_living_entity": "只修改存活的实体",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.list__entity_sets": "实体集合列表",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.list__attribute_records": "属性修改列表",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.list__id_mappings": "标识符映射列表"
+}

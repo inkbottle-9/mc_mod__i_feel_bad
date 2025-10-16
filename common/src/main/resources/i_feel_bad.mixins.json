@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "org.x4.mc_mod__i_feel_bad.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "IIFBMixinMob",
+    "IIFBMixinNearestAttackableTargetGoal",
+    "IFBMixinPlayer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

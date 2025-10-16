@@ -1,0 +1,50 @@
+{
+  "i_feel_bad.configuration.title": "I Feel Bad Configs",
+  "i_feel_bad.configuration.section.i_feel_bad.common.toml": "I Feel Bad Configs",
+  "i_feel_bad.configuration.section.i_feel_bad.common.toml.title": "I Feel Bad Configs",
+
+  "i_feel_bad.configuration.gui.i_feel_bad_config": "Common settings",
+  "i_feel_bad.configuration.gui.i_feel_bad_config.flag__enable_i_feel_bad": "Enable I Feel Bad",
+  "i_feel_bad.configuration.gui.i_feel_bad_config.flag__enable_logging": "Enable logging",
+  "i_feel_bad.configuration.gui.i_feel_bad_config.flag__enable_config_check": "Enable config check",
+
+  "i_feel_bad.configuration.gui.hp_modification_config": "HP modification",
+  "i_feel_bad.configuration.gui.hp_modification_config.flag__enabled": "Enable HP modification",
+  "i_feel_bad.configuration.gui.hp_modification_config.coefficient__k": "Coefficient k",
+  "i_feel_bad.configuration.gui.hp_modification_config.coefficient__b": "Coefficient b",
+  "i_feel_bad.configuration.gui.hp_modification_config.minimum": "Minimum",
+  "i_feel_bad.configuration.gui.hp_modification_config.maximum": "Maximum",
+
+  "i_feel_bad.configuration.gui.food_level_modification_config": "Food level modification",
+  "i_feel_bad.configuration.gui.food_level_modification_config.flag__enabled": "Enable food level modification",
+  "i_feel_bad.configuration.gui.food_level_modification_config.coefficient__k": "Coefficient k",
+  "i_feel_bad.configuration.gui.food_level_modification_config.coefficient__b": "Coefficient b",
+  "i_feel_bad.configuration.gui.food_level_modification_config.minimum": "Minimum",
+  "i_feel_bad.configuration.gui.food_level_modification_config.maximum": "Maximum",
+
+  "i_feel_bad.configuration.gui.saturation_modification_config": "Saturation modification",
+  "i_feel_bad.configuration.gui.saturation_modification_config.flag__enabled": "Enable saturation modification",
+  "i_feel_bad.configuration.gui.saturation_modification_config.coefficient__k": "Coefficient k",
+  "i_feel_bad.configuration.gui.saturation_modification_config.coefficient__b": "Coefficient b",
+  "i_feel_bad.configuration.gui.saturation_modification_config.minimum": "Minimum",
+  "i_feel_bad.configuration.gui.saturation_modification_config.maximum": "Maximum",
+
+  "i_feel_bad.configuration.gui.status_effect_assignment_config": "Status effect assignment",
+  "i_feel_bad.configuration.gui.status_effect_assignment_config.flag__enable_status_effect_assignment": "Enable status effect assignment",
+  "i_feel_bad.configuration.gui.status_effect_assignment_config.list__status_effect_assignment_records": "Effects list",
+
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config": "Experience mechanism modification",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.flag__enable_coverage": "Enable exp mechanism modification",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.basic__exp_requirement": "Basic exp for upgrading",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.increment__exp_req_per_level": "Increment per level",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.minimum__exp_req_for_each_level": "Minimum exp requirement",
+  "i_feel_bad.configuration.gui.level_exp_req_coverage_config.maximum__exp_req_for_each_level": "Maximum exp requirement",
+
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config": "Entity attributes modification when spawning",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.flag__enable_entity_attributes_modification": "Enable attributes modification",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.flag__only_modify_living_entity": "modify living entities only",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.list__entity_sets": "List of entity sets",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.list__attribute_records": "List of attribute modification records",
+  "i_feel_bad.configuration.gui.entity_joining_attributes_modification_config.list__id_mappings": "List of id mappings"
+
+}

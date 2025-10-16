@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_authors}"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "${repository_url}"
+  },
+  "license": "${mod_license}",
+  "icon": "${icon_path}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.x4.mc_mod__i_feel_bad.fabric.IFeelBadFabric"
+    ],
+    "client": [
+      "org.x4.mc_mod__i_feel_bad.fabric.client.IFeelBadFabricClient"
+    ]
+  },
+  "mixins": [
+    "i_feel_bad.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=${java_version}",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
