@@ -1,6 +1,23 @@
+import groovy.text.SimpleTemplateEngine
+
 plugins {
     id 'com.gradleup.shadow'
 }
+
+// 设置生成的 jar 文件名称
+ext.platform = project.name
+String pattern__name = rootProject.properties['name_template']
+String pattern__ver = rootProject.properties['ver_template']
+// 包名
+archivesBaseName = new SimpleTemplateEngine()
+        .createTemplate(pattern__name)
+        .make(rootProject.properties + [platform: ext.platform])
+        .toString()
+// 版本
+version = new SimpleTemplateEngine()
+        .createTemplate(pattern__ver)
+        .make(rootProject.properties)
+        .toString()
 
 architectury {
     platformSetupLoomIde()
