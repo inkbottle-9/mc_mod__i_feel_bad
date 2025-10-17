@@ -28,7 +28,9 @@
 
 ## 3. server or client
 
-- This is a pure server-side module. If it is used on the server, then this module is not necessary on the client side
+- This is a pure server-side module
+- If used on the dedicated server, this module is not necessary on the client side
+- Single-player or LAN play is also supported
 
 ## 4. config
 
